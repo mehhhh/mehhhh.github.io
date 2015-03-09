@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="40" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tileset" tilewidth="16" tileheight="16">
+  <image source="tileset.png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="2" name="floor" tilewidth="16" tileheight="16">
+  <image source="floor.png" width="128" height="48"/>
+ </tileset>
+ <tileset firstgid="26" name="wall" tilewidth="16" tileheight="16">
+  <image source="wall.png" width="96" height="96"/>
+ </tileset>
+ <layer name="background" width="50" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztlVtOAlEQRG80REdCdDQERvCFoCCgAr4f+98W1R+1gr7pm570SU5O7aBSSukSjpTlFsbwyrDkFt4pyy1M4L1hyQN8VJZbmMOFYckKrpXlFp7hi2HJFu6U5Rbe4LthyRf8VpZb+IG/hiWdjAoH8NCwpJdR4QR2DUv6GRXO4YVh20b8efx5/Hn8uZc/P4aVstxCqT8/g7Wy3EKpPx/CRlluIf5cR/x5/Hn8efy5lz+vMiqU+vM6o0KpP28yKsSf67iGN45LpnDmuOQJLh2XvMKN45IP+Om45A/+Oy45ci45dS4ZOLdN7AH/tN1c
+  </data>
+ </layer>
+ <layer name="collide" width="50" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztlcEJwDAMxOr9l+4AJUehRjZFgnxllM/V1Us1+97e7L5rx7ebdpydNHZkJ40d2UlTP3vdf0NjR3bS2JGdNHZkJ40d2Ukzvb/u+fOmHWcnjR3ZSWNHdtLYkZ000/u7ec8nsGMXduzCjl3YsYvp/e18NzVQASw=
+  </data>
+ </layer>
+ <layer name="door" width="50" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJACAMBMGk/6Z9WIEgeJGZAo78NlV0yAYAsN3uqk4DwCwv2u1fAIAzCe1MuAGA/yyyXAAJ
+  </data>
+ </layer>
+ <layer name="phone" width="50" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1bENADAIwDD4/2ku6NAFJLAvyJYIgH45HQAAh/x+16cBYDevBwCAtwJrnAAF
+  </data>
+ </layer>
+ <layer name="sysadmin" width="50" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6Dbv7Qx7iYkIOGzaQcAAAAAAAAAjlg8gAAC
+  </data>
+ </layer>
+ <layer name="atm" width="50" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzty7ENAAAIw7Dy/9N8wIBgs9coCQAAAAAAwL9atOkBgGsNMvQABA==
+  </data>
+ </layer>
+ <layer name="secre" width="50" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1aEBADAIBDHYf2kWqAGKS+y/vwh4y+EGANzqdPjqCwDs/W6vlgMAAOwVtHAACA==
+  </data>
+ </layer>
+</map>
